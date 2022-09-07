@@ -1,0 +1,16 @@
+{
+  "name": "page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css:dev": "npx tailwindcss -i ./src/input.css -o ./styles/style.css --watch",
+    "css": "npx tailwindcss -i ./src/input.css -o ./styles/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
